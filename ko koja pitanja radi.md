@@ -10,25 +10,23 @@ Everything is **distinct** across SQL, MDX, and Atoti dashboards — no overlaps
 
 # 🟢 **SQL QUESTIONS (10 questions, all distinct)**
 
+
+
+
+
 **Student A – 5 SQL**
-
-
-* **Q4** — Data Volume (KB) by Region × Quarter in 2024
-* **Q5** — Data Volume (KB) by Param Category × Year (2023–2024)
-
-
+Q4
+Q5
+Q9
+Q10
+Q13
 
 **Student B – 5 SQL**
-
-* **Q10** — Top 10 Countries by Avg Data Quality (2024)
-* **Q11** — Exceed Days (any) by Region for Param Category = Gas (2024)
-* **Q15** — Exceed Days (any) by Country in Eastern Europe (2023 & 2024)
-* **Q16** — Data Volume (KB) by Param Category × Quarter (2024)
-* **Q29** — Data Volume (KB) by Eastern European Countries (2023 & 2024)
-* **Q22** — Missing Days by Param Category × Quarter (2024) 
-✔ Total SQL = **10 questions**
-✔ All distinct
-
+Q15
+Q18
+Q21
+Q25
+Q27
 ---
 
 # 🔵 **MDX QUESTIONS (10 questions, all distinct)**
@@ -58,12 +56,12 @@ Everything is **distinct** across SQL, MDX, and Atoti dashboards — no overlaps
 # 🟣 **ATOTI DASHBOARDS (6 questions, all distinct)**
 
 Chosen from remaining questions (not used in SQL or MDX):
-
-
-
-* **Q21** — Data Volume (KB) by Param Category for 2023 & 2024 (Health Risk / Environmental Monitoring)
-* **Q23** — Best Month (max Data Volume) per Country (2024)
-* **Q25** — Exceed Days (any) by Purpose (2023, 2024 & change)
+Q1
+Q2
+Q12
+Q16
+Q22
+Q14
 
 
 ✔ Total dashboards = **6**
