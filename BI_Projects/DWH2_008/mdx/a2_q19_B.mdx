@@ -1,0 +1,20 @@
+WITH
+SET [CentralEuropeCities] AS
+    FILTER(
+        [dim_city].[Geo].[city_name].Members,
+        [dim_city].[Geo].CurrentMember.Parent.Parent.Name = "Central Europe"
+    )
+
+SELECT
+  {
+    [Measures].[Missing Days],
+    [Measures].[Data Volume (KB)]
+  } ON COLUMNS,
+
+  NON EMPTY [CentralEuropeCities] ON ROWS
+
+FROM [AirQ Cube]
+
+WHERE (
+    [dim_timemonth].[Time].[year_num].&[2024]
+)

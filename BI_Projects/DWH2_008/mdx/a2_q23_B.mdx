@@ -1,0 +1,25 @@
+WITH
+SET [Months] AS
+    [dim_timemonth].[Time].[month_name].Members
+
+
+SET [BestMonthPerCountry] AS
+    GENERATE(
+        [dim_city].[Geo].[country_name].Members,
+        TOPCOUNT(
+            FILTER(
+                CROSSJOIN(
+                    { [dim_city].[Geo].CurrentMember },
+                    [Months]
+                ),
+                [dim_timemonth].[Time].CurrentMember.Parent.Parent.Name = "2024"
+            ),
+            1,
+            [Measures].[Data Volume (KB)]
+        )
+    )
+
+SELECT
+    { [Measures].[Data Volume (KB)] } ON COLUMNS,
+    NON EMPTY [BestMonthPerCountry] ON ROWS
+FROM [AirQ Cube]

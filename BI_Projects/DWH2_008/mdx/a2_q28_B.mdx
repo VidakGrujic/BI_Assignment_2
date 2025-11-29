@@ -1,0 +1,19 @@
+SELECT
+    { [Measures].[Missing Days] } ON COLUMNS,
+
+    TOPCOUNT(
+        NONEMPTY(
+            [dim_city].[Geo].[country_name].Members,
+            ([Measures].[Missing Days],
+             [dim_timemonth].[Time].[year_num].&[2024])
+        ),
+        10,
+        ([Measures].[Missing Days],
+         [dim_timemonth].[Time].[year_num].&[2024])
+    ) ON ROWS
+
+FROM [AirQ Cube]
+
+WHERE (
+    [dim_timemonth].[Time].[year_num].&[2024]
+)

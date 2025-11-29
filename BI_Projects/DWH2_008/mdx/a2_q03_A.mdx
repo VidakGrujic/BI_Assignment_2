@@ -1,0 +1,12 @@
+SELECT
+    { [Measures].[Exceed Days (any)] } ON COLUMNS,
+
+    NON EMPTY
+    [dim_city].[Geo].[city_name].Members ON ROWS
+
+FROM [AirQ Cube]
+
+WHERE (
+    [dim_param].[Param].[param_name].&[PM10],
+    [dim_timemonth].[Time].[year_num].&[2024]
+)

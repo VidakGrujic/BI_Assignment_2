@@ -1,0 +1,21 @@
+region_name,country_name,year_num,quarter_num,month_name,Data Volume (KB)
+Central Europe,Austria,2024,4,Dec,139159
+Central Europe,Croatia,2024,2,May,38950
+Central Europe,Czech Republic,2024,2,May,80363
+Central Europe,Germany,2024,3,Aug,254990
+Central Europe,Hungary,2024,1,Jan,62013
+Central Europe,Poland,2024,2,May,48386
+Eastern Europe,Belarus,2024,4,Oct,38124
+Eastern Europe,Greece,2024,4,Oct,63851
+Eastern Europe,Russia,2024,1,Jan,339096
+Eastern Europe,Serbia,2024,4,Dec,38720
+Eastern Europe,Turkey,2024,3,Aug,426473
+Western Europe,Belgium,2024,4,Dec,52755
+Western Europe,Denmark,2024,2,May,63862
+Western Europe,Finland,2024,4,Dec,37635
+Western Europe,France,2024,2,May,173853
+Western Europe,Italy,2024,1,Jan,128183
+Western Europe,Netherlands,2024,3,Aug,22850
+Western Europe,Spain,2024,4,Nov,55672
+Western Europe,Sweden,2024,4,Dec,101856
+Western Europe,United Kingdom,2024,4,Dec,213684
