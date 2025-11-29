@@ -56,12 +56,12 @@ Q27
 # 🟣 **ATOTI DASHBOARDS (6 questions, all distinct)**
 
 Chosen from remaining questions (not used in SQL or MDX):
-Q1
-Q2
-Q12
-Q16
-Q22
-Q14
+Q1 done 
+Q2 done 
+Q12 done 
+Q16 done mora se popravi, isecen j
+Q22 done mora se popravi, isecen j
+
 
 
 ✔ Total dashboards = **6**
