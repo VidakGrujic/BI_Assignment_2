@@ -1,3 +1,6 @@
+-- Q17 - Show Avg Data Quality by Country for 2023 and 2024. Return Countries on rows and two 
+-- columns—2023 and 2024 values of Avg Data Quality.
+
 WITH
   MEMBER [Measures].[Avg Data Quality 2023] AS
     ([dim_timemonth].[Time].[year_num].&[2023],

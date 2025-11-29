@@ -1,2 +1,7 @@
-Student A:
-Student B:
+Student A: Milica Aleksic 
+- SQL: Q4, Q5, Q9, Q10, Q13 
+- MDX: Q3, Q6, Q7, Q8, Q11
+Student B: Vidak Grujic
+- SQL: Q15, Q18, Q21, Q25, Q27
+- MDX: Q17, Q19, Q23, Q24, Q28
+Atoti UI: Q1, Q2, Q12, Q16, Q22
